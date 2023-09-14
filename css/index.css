@@ -1,3 +1,31 @@
+:root{
+    --ff-tittle: 'Press Start 2P', cursive;
+    --ff-text: 'Oxygen', sans-serif;
+    --p-center: center;
+    --c-Bcolor: #a3b18a;
+    --c-Tc: #0096c7;
+    --c-colorf: #dad7cd;
+}
 body{
-    background-color: rgb(182, 182, 181);
+    background-color: var(--c-Bcolor);
+}
+h1{
+    font-family: var(--ff-tittle);
+    text-align: var(--p-center);
+}
+h2{
+    font-family: var(--ff-text);
+}
+.main-h{
+    display: flex;
+    justify-content: var(--p-center)
+}
+a{
+    text-decoration: none;
+    font-family: var(--ff-tittle);
+    font-size: 16px;
+    color: var(--c-Tc);
+}
+.material-symbols-outlined{
+    color: var(--c-Tc);
 }
